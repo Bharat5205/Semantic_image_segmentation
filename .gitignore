@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments & Dependencies
+.venv/
+venv/
+env/
+ENV/
+node_modules/
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# Checkpoints & model weights (large binaries)
+checkpoints/
+*.pth
+*.pt
+*.onnx
+*.bin
+*.h5
+
+# Datasets & Archives
+data/
+dataset/
+*.tar.gz
+*.zip
+*.rar
+*.7z
+
+# Build and cache files
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+.cache/
+
+# OS / IDE temporary files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
